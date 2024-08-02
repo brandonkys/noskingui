@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.brandonkys.noskingui.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "MixinInventoryScreen"
+  ]
+}

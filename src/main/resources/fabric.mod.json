@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "noskingui",
+  "version": "${version}",
+  "name": "NoSkinGUI",
+  "description": "Removes player skin from inventory gui",
+  "authors": [
+    "brandonkys"
+  ],
+  "license": "MIT",
+  "icon": "assets/noskingui/icon.png",
+  "environment": "*",
+  "mixins": [
+    "noskingui.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*"
+  },
+  "accessWidener": "noskingui.accesswidener"
+}
